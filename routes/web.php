@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('cds');
-});
+// Route::get('/', function () {
+//     return view('cds');
+// });
+
+// Route::get('/', 'Controller@index'() {
+//     return Controller('Controller');
+// });
+  // Route::get('/cds', 'Controller@index');
+
+  Route::get('/cds', 'CdsController@index');
